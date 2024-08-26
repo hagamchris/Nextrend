@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NexTrend</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="body-subclass" >
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="word-subclass" href="#home">Home</a></li>
+                        <li><a class="word-subclass" href="#about">About</a></li>
+                        <li><a  class="word-subclass"href="#service">Services</a></li>
+                        <li><a  class="word-subclass"href="#Portfolio">Portfolio</a></li>
+                        <li><a  class="word-subclass"href="#contact">Contact</a></li>
+    
+                    </ul>
+                </nav>
+        </div>
+        <h1 class="next-subclass">NexTrend</h1>
+        
+    </header>
+    <div class="container">
+        <div class="text-container">
+            <p class="title">UI/UX DESIGNS</p>
+            <h1>Hi, I am <span class="highlight">Chris</span></h1>
+            <p class="subtitle">Web App Developer<br>UI/UX</p>
+        </div>
+        <div class="image-container">
+            <!--<img src="chris.jpg" alt="Your Photo">-->
+        </div>
+    </div> 
+
+   
+    <!--about-->
+        <div class="about-me">
+            <img src="chris.jpg" alt="Your Photo">
+            <div class="about-me-text">
+                <h2>About Me</h2>
+                <p>"I am Chris, a passionate and creative web designer with a keen eye for detail and a love for crafting beautiful, user-friendly websites. Currently pursuing a degree in IT, I am continually enhancing my skills in HTML, CSS, JavaScript, and modern design tools.</p>
+                <p>With a strong foundation in design principles and a deep understanding of the latest web technologies, I aim to create responsive and accessible websites that provide an exceptional user experience. Whether it’s designing a simple landing page or developing a complex web application, I thrive on turning ideas into visually appealing and functional digital products.</p>
+                <p>In my free time, I enjoy exploring new design trends, learning about UX/UI best practices, and contributing to open-source projects. My goal is to become a full-stack developer and work with top tech companies like Google, where I can contribute to innovative projects and continue to grow in my career."</p>
+            </div>
+        </div>
+    
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('skills')">Skills</button>
+            <button class="tab-button" onclick="showTab('experience')">Experience</button>
+            <button class="tab-button" onclick="showTab('education')">Education</button>
+        </div>
+    
+        <div class="tab-content">
+            <div id="skills" class="tab-pane active">
+                <h3>Skills</h3>
+                <ul>
+                    <li><b>UI/UX:</b> Designing Web/App Interfaces</li>
+                    <li><b>UI/UX:</b> Web App Development</li>
+                    <li><b>UI/UX:</b> Building Android/iOS Apps</li>
+                </ul>
+            </div>
+    
+            <div id="experience" class="tab-pane">
+                <h3>Experience</h3>
+                <ul>
+                    <li>Designing</li>
+                    <li>Training at ICT University</li>
+                </ul>
+            </div>
+    
+            <div id="education" class="tab-pane">
+                <h3>Education</h3>
+                <p>ICT in MoCU</p>
+            </div>
+        </div>
+
+
+<!--servic-->
+            <h2>My Services</h2>
+            <div class="services">
+                <div class="service-card" id="web-design">
+                    <div class="icon">&#60;/&#62;</div>
+                    <h3>Web Design</h3>
+                    <p>I design and develop websites with a focus on aesthetics, functionality, and user experience. My work involves HTML, CSS, JavaScript, and other modern web technologies.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-card" id="ui-ux-design">
+                    <div class="icon">✂</div>
+                    <h3>UI/UX Design</h3>
+                    <p>I specialize in creating intuitive and user-friendly interfaces that enhance user engagement. My designs are tailored to meet the needs of both users and businesses.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-card" id="app-design">
+                    <div class="icon">🚀</div>
+                    <h3>App Design</h3>
+                    <p>I design mobile applications with a focus on performance and user experience. My goal is to create apps that are both functional and enjoyable to use.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        
+        <!--contact-->
+                <div class="contact-container">
+                    <h2>Contact Us</h2>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> hagamchris@gmail.com</p>
+                        <p><i class="fas fa-phone"></i>+255673578430</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com" target="_blank"><img src="photo/icons8-facebook-50.png" alt="Facebook"></a>
+                            <a href="https://x.com/code_id99" target="_blank"><img src="photo/icons8-twitter-50.png" alt="Twitter"></a>
+                            <a href="https://www.instagram.com/_.heischris/" target="_blank"><img src="photo/icons8-instagram-50.png" alt="Instagram"></a>
+                            <a href="https://www.linkedin.com" target="_blank"><img src="photo/icons8-linkedin-48.png" alt="linkedin" ></a>
+                        </div>
+                        <div class="download-cv">
+                            <button>Download CV</button>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        
+                        <form method="post" action="https://script.google.com/macros/s/AKfycbwwoARGGAHvqYbvU2pQTmSskktZ11v6AwYDNt7yy0rDkQViaydmpV5yiCGicS1vpd6E/exec"
+                        name="contanct-form">
+                        <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name" required><br><br>
+                            
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" rows="5" required><br><br>
+                            
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                            
+                            <input type="submit" value="Submit">
+                    </form>
+                    <script src="googlesheet.js"></script>
+                    </div>
+                    
+                </div>
+               
+                
+            
+            </div>
+    </div>
+    
+    
+
+</body>
+</html>
+
+
+
